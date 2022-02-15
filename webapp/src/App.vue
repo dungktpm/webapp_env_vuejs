@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Xin chào"/>
+    <hello msg="Xin chào"/>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'hello':HelloWorld
   }
 } 
 </script>
